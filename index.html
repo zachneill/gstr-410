@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html> 
+<html>
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -32,44 +32,44 @@ You are a local farmer who struggles to grow produce. A rich prince arrives in t
 You are a farmer. You stroll over to a stream, your village&#39;s water source. You fill your cup with water and begin to drink it. As you drink, a young child trots up to the river. She cups her hands together and drinks cheerfully from the river. You look down at your cup and begin to ponder. 
 
 [[I need my cup]]
-[[I don&#39;t need my cup]]</tw-passagedata><tw-passagedata pid="7" name="Cosmopolitan Morality Spectrum" tags="" position="550,100" size="100,100">This game is called the Cosmopolitan Morality Spectrum. You can find out what type of cosmopolitan you are. 
+[[I don&#39;t need my cup]]</tw-passagedata><tw-passagedata pid="7" name="Cosmopolitan Morality Spectrum" tags="" position="550,100" size="100,100">This game is called the Cosmopolitan Morality Spectrum Test. You can find out what type of cosmopolitan you are. 
 
 [[start|intro]]
 (set: $ind to 0)(set: $rad to 0)(set: $cri to 0)(set: $non to 0)</tw-passagedata><tw-passagedata pid="8" name="intro" tags="" position="550,225" size="100,100">The Cosmopolitan Morality Spectrum is characterized by four figures: Diogenes the Individualist, Peter Singer the Radical Utilitarian, Kwame Anthony Appiah the Critical Cosmopolitan, and the Non-Cosmopolitan. Each are on the CMS. 
 
 You will answer a series of questions that synthesize cosmopolitan dilemma, including certain actual historical events. There are 7 themes or stories as you progress through the test. 
 
-[[begin the test|alexander the great]]</tw-passagedata><tw-passagedata pid="9" name="drowning child" tags="" position="800,900" size="100,100">The year is 500 AD.
+[[begin the test|alexander the great]]</tw-passagedata><tw-passagedata pid="9" name="drowning child" tags="" position="2125,350" size="100,100">The year is 500 AD.
 
 You are a farmer. You walk to a stream to fill your cup with water. As you approach, you see a young child run up to the stream. The young child loses her balance and falls into the stream. She screams. There is no time to empty your pockets full of money, and you know your clothes will be ruined if you jump in.
 
 [[yell for help]]
 [[jump into the stream]]
-[[do not engage]]</tw-passagedata><tw-passagedata pid="10" name="ethical veganism" tags="" position="800,2000" size="100,100">The year is 2100 AD. 
+[[do not engage]]</tw-passagedata><tw-passagedata pid="10" name="ethical veganism" tags="" position="1600,1175" size="100,100">The year is 2100 AD. 
 
 You are a commoner. It is Thanksgiving. Technological advances have industrialized each facet of the workforce. A microchip is in your skin that records your weekly diet based on your bloodstream. On this holiday feast, you look at the food that you prepared. 
 
 [[you prepare to eat several meat products]]
 [[there is an absence of meat products]]
-[[there is no desire to feast]]</tw-passagedata><tw-passagedata pid="11" name="too late to change the world" tags="" position="800,1450" size="100,100">The year is 1300 AD. 
+[[there is no desire to feast]]</tw-passagedata><tw-passagedata pid="11" name="too late to change the world" tags="" position="800,900" size="100,100">The year is 1300 AD. 
 
 You are a soldier. You won the war and are returning home. You reflect on your experiences there. You think of the lifelong friends you along the way. You remember the ink-smeared handwritten letters that your family sent you. You question when world peace will arrive. Can the world change into a global togetherness?
 
 [[it is impossible to change the world]]
 [[it is not required to change the world]]
-[[it is feasible to change the world]]</tw-passagedata><tw-passagedata pid="12" name="foreign aid is bad" tags="" position="800,1175" size="100,100">The year is 900 AD. 
+[[it is feasible to change the world]]</tw-passagedata><tw-passagedata pid="12" name="foreign aid is bad" tags="" position="1600,625" size="100,100">The year is 900 AD. 
 
 You are a commoner in the local market. A commoner tells you that one nation 1000 miles north is now greatly in debt. He explains that going to their location with enough food will help extraordinarily. He says there are several friends going on a trip to help those in need. The journey will take many days, but they are excited. 
 
 [[join the trip]]
 [[go home]]
-[[contribute money and leave]]</tw-passagedata><tw-passagedata pid="13" name="ten central capabilities" tags="" position="800,1725" size="100,100">The year is 1700 AD.
+[[contribute money and leave]]</tw-passagedata><tw-passagedata pid="13" name="ten central capabilities" tags="" position="1600,900" size="100,100">The year is 1700 AD.
 
 You are royalty. You are a fair leader in a small city. Science is evolving. The world&#39;s greatest thinkers are reevaluating many propositions set forth by history and religion. People are forming opinions and rejecting authority figures. All these laws that you once knew are breaking. You begin to ponder the laws you possess as a human. Your mind brainstorms a few ideas for laws. Of those ideas, you recall one that should be more coveted than the others. 
 
 [[the freedom to help and be among others]]
 [[the freedom to experience love and glory]]
-[[the freedom to enjoy nature and natural livelihood]]</tw-passagedata><tw-passagedata pid="14" name="see results" tags="" position="800,2275" size="100,100">(set: _ind to ($ind / ($ind + $rad + $cri + $non)))
+[[the freedom to enjoy nature and natural livelihood]]</tw-passagedata><tw-passagedata pid="14" name="see results" tags="" position="2400,900" size="100,100">(set: _ind to ($ind / ($ind + $rad + $cri + $non)))
 \(set: _ind to (round:(_ind * 100)))
 \(set: _rad to ($rad / ($ind + $rad + $cri + $non)))
 \(set: _rad to (round:(_rad * 100)))
@@ -79,7 +79,7 @@ You are royalty. You are a fair leader in a small city. Science is evolving. The
 \(set: _non to (round:(_non * 100)))\
 Here&#39;s how you scored:
 Diogenes the Individualist: $ind  (_ind%)
-Singer the Radical utilitarian: $rad (_rad%)
+Singer the Radical Utilitarian: $rad (_rad%)
 Appiah the Critical Cosmopolitan: $cri (_cri%)
 The Non-Cosmopolitan: $non (_non%)
 
@@ -152,65 +152,65 @@ You now have no possessions, shelter, or way back home. In a few days, you ponde
 
 [[next question|drowning child]]
 
-(set: $non to it + 1)(set: $cri to it + .5)(set: $rad to it + .5)</tw-passagedata><tw-passagedata pid="29" name="you prepare to eat several meat products" tags="" position="800,2125" size="100,100">You prepared multiple platters of meat-based dishes. Your family gathers around the table and eats cheerfully. As you eat, you think of them. They look so happy. You are doing a moral good, no matter what your microchip says. 
+(set: $non to it + 1)(set: $cri to it + .5)(set: $rad to it + .5)</tw-passagedata><tw-passagedata pid="29" name="you prepare to eat several meat products" tags="" position="1600,1300" size="100,100">You prepared multiple platters of meat-based dishes. Your family gathers around the table and eats cheerfully. As you eat, you think of them. They look so happy. You are doing a moral good, no matter what your microchip says. 
 
 [[next question|ethical veganism 2]]
 
-(set: $cri to it + 0.5)(set: $non to it + 1)</tw-passagedata><tw-passagedata pid="30" name="there is an absence of meat products" tags="" position="925,2125" size="100,100">You did not prepare any meat products. Ethical veganism and vegetarianism are recommended outlooks on food consumption in these times. As your family eats, you know you are doing a moral good, and your microchip reflects this. 
+(set: $cri to it + 0.5)(set: $non to it + 1)</tw-passagedata><tw-passagedata pid="30" name="there is an absence of meat products" tags="" position="1725,1300" size="100,100">You did not prepare any meat products. Ethical veganism and vegetarianism are recommended outlooks on food consumption in these times. As your family eats, you know you are doing a moral good, and your microchip reflects this. 
 
 [[next question|ethical veganism 2]]
 
-(set: $cri to it + 1)(set: $rad to it + 1)(set: $ind to it + .5)</tw-passagedata><tw-passagedata pid="31" name="yell for help" tags="" position="675,1025" size="100,100">You call for help. You turn around and run into the center of your village. You find the father of the child and run back to the stream. When you arrive, the child is gone. Perhaps the child found her way to safety, perhaps not. 
+(set: $cri to it + 1)(set: $rad to it + 1)(set: $ind to it + .5)</tw-passagedata><tw-passagedata pid="31" name="yell for help" tags="" position="2000,475" size="100,100">You call for help. You turn around and run into the center of your village. You find the father of the child and run back to the stream. When you arrive, the child is gone. Perhaps the child found her way to safety, perhaps not. 
 
 [[next question|drowning child 2]]
 
-(set: $rad to it + 1.5)(set: $cri to it + .5)</tw-passagedata><tw-passagedata pid="32" name="drowning child 2" tags="" position="1200,900" size="100,100">The year is 500 AD. 
+(set: $rad to it + 1.5)(set: $cri to it + .5)</tw-passagedata><tw-passagedata pid="32" name="drowning child 2" tags="" position="2525,350" size="100,100">The year is 500 AD. 
 
 You are a wealthy merchant. You walk to a stream to cool off. As you approach, you see a young child who has fallen into a stream. Three farmers, one of whom is the father, turn to you. They yell at you to jump in and save the child. 
 
 [[yell for help|yell for help 2]]
 [[jump into the stream|jump into the stream 2]]
-[[do not engage|do not engage 2]]</tw-passagedata><tw-passagedata pid="33" name="jump into the stream" tags="" position="800,1025" size="100,100">You jump into the stream, which you find is freezing. Your feet touich the bottom, but it is difficult to move. The child finds a rock to cling to, but her grip is loosening quickly. You swim to the child and put her over your shoulder. As she holds on, her fingers dig into your skin. As you pull the child and yourself out of the water, the adrenaline wears off. Your calves are bleeding. Your body hurts. The child runs away and disappears. There is no sign of a father or mother.
+[[do not engage|do not engage 2]]</tw-passagedata><tw-passagedata pid="33" name="jump into the stream" tags="" position="2125,475" size="100,100">You jump into the stream, which you find is freezing. Your feet touich the bottom, but it is difficult to move. The child finds a rock to cling to, but her grip is loosening quickly. You swim to the child and put her over your shoulder. As she holds on, her fingers dig into your skin. As you pull the child and yourself out of the water, the adrenaline wears off. Your calves are bleeding. Your body hurts. The child runs away and disappears. There is no sign of a father or mother.
 
 [[next question|drowning child 2]]
 
-(set: $rad to it + 2)</tw-passagedata><tw-passagedata pid="34" name="do not engage 2" tags="" position="1325,1025" size="100,100">You stare back at the three perfectly capable farmers. You point at the father and motion for him to save his own child. You find it embarrassing that these people have no morals. You fill your cup with water and leave in disgust. 
+(set: $rad to it + 2)</tw-passagedata><tw-passagedata pid="34" name="do not engage 2" tags="" position="2650,475" size="100,100">You stare back at the three perfectly capable farmers. You point at the father and motion for him to save his own child. You find it embarrassing that these people have no morals. You fill your cup with water and leave in disgust. 
 
-[[next question|drowning child 3]]</tw-passagedata><tw-passagedata pid="35" name="yell for help 2" tags="" position="1075,1025" size="100,100">You yell for help along with the farmers. The child clings to a rock, but her grip loosens quickly. You run back to the village center in search for assistance. Nobody joins you. You return to the stream, and the father is the only one left. He is kneeling by the stream. He looks at you, then looks away. 
+[[next question|drowning child 3]]</tw-passagedata><tw-passagedata pid="35" name="yell for help 2" tags="" position="2400,475" size="100,100">You yell for help along with the farmers. The child clings to a rock, but her grip loosens quickly. You run back to the village center in search for assistance. Nobody joins you. You return to the stream, and the father is the only one left. He is kneeling by the stream. He looks at you, then looks away. 
 
-[[next question|drowning child 3]]</tw-passagedata><tw-passagedata pid="36" name="do not engage" tags="" position="925,1025" size="100,100">You calmly fill your cup with water. The stream is not particularly deep, and the child is not currently drowning. This will be a valuable lesson to the child, who made a careless mistake. 
+[[next question|drowning child 3]]</tw-passagedata><tw-passagedata pid="36" name="do not engage" tags="" position="2250,475" size="100,100">You calmly fill your cup with water. The stream is not particularly deep, and the child is not currently drowning. This will be a valuable lesson to the child, who made a careless mistake. 
 
 [[next question|drowning child 2]]
 
-(set: $non to it + 2)(set: $cri to it + 1)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="37" name="jump into the stream 2" tags="" position="1200,1025" size="100,100">You jump into the stream, which you find is freezing. Your feet touich the bottom, but it is difficult to move. The child finds a rock to cling to, but her grip is loosening quickly. You swim to the child and put her over your shoulder. As she holds on, her fingers dig into your skin. As you pull the child and yourself out of the water, the adrenaline wears off. Your calves are bleeding. Your body hurts. 
+(set: $non to it + 2)(set: $cri to it + 1)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="37" name="jump into the stream 2" tags="" position="2525,475" size="100,100">You jump into the stream, which you find is freezing. Your feet touich the bottom, but it is difficult to move. The child finds a rock to cling to, but her grip is loosening quickly. You swim to the child and put her over your shoulder. As she holds on, her fingers dig into your skin. As you pull the child and yourself out of the water, the adrenaline wears off. Your calves are bleeding. Your body hurts. 
 
 The child runs into the hands of the father. The other farmers leave silently. 
 
 [[next question|drowning child 3]]
 
-(set: $rad to it + 2)</tw-passagedata><tw-passagedata pid="38" name="drowning child 3" tags="" position="1600,900" size="100,100">The year is 500 AD. 
+(set: $rad to it + 2)</tw-passagedata><tw-passagedata pid="38" name="drowning child 3" tags="" position="2925,350" size="100,100">The year is 500 AD. 
 
 You are an aging warrior with a broken back. You hobble to a stream to cool off. As you approach, you see an adult standing before the water. He jumps into the stream. The current sweeps him away. He tries to swim to safety, but he is not making any progress. The man is not screaming, but perhaps it is your ears playing tricks on you. You squint and realize the man is not an adult but a child. 
 
 [[yell for help|yell for help 3]]
 [[jump into the stream|jump into the stream 3]]
-[[do not engage|do not engage 3]]</tw-passagedata><tw-passagedata pid="39" name="yell for help 3" tags="" position="1475,1025" size="100,100">You slowly turn around and trudge back to the village center. You scream that a child has fallen into the water and cannot swim to safety. Nobody believes you. They tell you that you ought to go back to bed and rest. When you return to the stream, the child is nowhere to be found. Perhaps he found his way out of the water. Perhaps not.
+[[do not engage|do not engage 3]]</tw-passagedata><tw-passagedata pid="39" name="yell for help 3" tags="" position="2800,475" size="100,100">You slowly turn around and trudge back to the village center. You scream that a child has fallen into the water and cannot swim to safety. Nobody believes you. They tell you that you ought to go back to bed and rest. When you return to the stream, the child is nowhere to be found. Perhaps he found his way out of the water. Perhaps not.
 
 [[next question|foreign aid is bad]]
 
-(set: $cri to it + 1)(set:$rad to it + .5)</tw-passagedata><tw-passagedata pid="40" name="jump into the stream 3" tags="" position="1600,1025" size="100,100">You jump into the stream. Your back gives out, and you scream in pain. You slowly make your way down to the child. He lunges at you and tries to grab onto your shoulder. His weight pulls you under the water. Your foot gets caught on a rock. It starts to bleed as you cling to the rock. The child continues to swim toward safety with no progress. You close your eyes and drown out the noise of everything around you. You hope that someone will come to help. 
+(set: $cri to it + 1)(set:$rad to it + .5)</tw-passagedata><tw-passagedata pid="40" name="jump into the stream 3" tags="" position="2925,475" size="100,100">You jump into the stream. Your back gives out, and you scream in pain. You slowly make your way down to the child. He lunges at you and tries to grab onto your shoulder. His weight pulls you under the water. Your foot gets caught on a rock. It starts to bleed as you cling to the rock. The child continues to swim toward safety with no progress. You close your eyes and drown out the noise of everything around you. You hope that someone will come to help. 
 
-[[next question|foreign aid is bad]]</tw-passagedata><tw-passagedata pid="41" name="do not engage 3" tags="" position="1725,1025" size="100,100">Your back has been injured for years now. If you overexert yourself, you may die or never move your body again. The child did this on purpose. Perhaps he was learning how to swim. You recall the first time you learned how to swim. That was many years ago. You bend down to fill your cup with water and leave. 
+[[next question|foreign aid is bad]]</tw-passagedata><tw-passagedata pid="41" name="do not engage 3" tags="" position="3050,475" size="100,100">Your back has been injured for years now. If you overexert yourself, you may die or never move your body again. The child did this on purpose. Perhaps he was learning how to swim. You recall the first time you learned how to swim. That was many years ago. You bend down to fill your cup with water and leave. 
 
 [[next question|foreign aid is bad]]
 
-(set: $rad to it + 2)(set: $cri to it + .5)</tw-passagedata><tw-passagedata pid="42" name="join the trip" tags="" position="675,1300" size="100,100">You offer your services and ask to join the voyager to this foreign nation. The commoner nods and takes you to a carriage. Inside is a few of your friends and a couple strangers. The trip begins, and you feel the excitement of seeing a new world. You make friends with the strangers and share stories. As time passes, you start to feel restless. Nighttime rolls around, and you wonder how far away is 1000 miles. 
+(set: $rad to it + 2)(set: $cri to it + .5)</tw-passagedata><tw-passagedata pid="42" name="join the trip" tags="" position="1475,750" size="100,100">You offer your services and ask to join the voyager to this foreign nation. The commoner nods and takes you to a carriage. Inside is a few of your friends and a couple strangers. The trip begins, and you feel the excitement of seeing a new world. You make friends with the strangers and share stories. As time passes, you start to feel restless. Nighttime rolls around, and you wonder how far away is 1000 miles. 
 
-[[next question|foreign aid is bad 2]]</tw-passagedata><tw-passagedata pid="43" name="go home" tags="" position="800,1300" size="100,100">You wish the commoner well, but feel doubtful he is telling the truth. Moreover, the nation in debt ought to learn better self-sufficiency. It would do them more good than any food product, you reckon. 
+[[next question|foreign aid is bad 2]]</tw-passagedata><tw-passagedata pid="43" name="go home" tags="" position="1600,750" size="100,100">You wish the commoner well, but feel doubtful he is telling the truth. Moreover, the nation in debt ought to learn better self-sufficiency. It would do them more good than any food product, you reckon. 
 
 [[next question|foreign aid is bad 2]]
 
-(set: $non to it + 2)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="44" name="contribute money and leave" tags="" position="925,1300" size="100,100">You hand the commoner some money and tell him to give it to the travelers. He tells you that they would appreciate it greatly. As he walks away, he puts your money in his pockets. You turn around and head home wondering whether your money will make it to its intended receivers. 
+(set: $non to it + 2)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="44" name="contribute money and leave" tags="" position="1725,750" size="100,100">You hand the commoner some money and tell him to give it to the travelers. He tells you that they would appreciate it greatly. As he walks away, he puts your money in his pockets. You turn around and head home wondering whether your money will make it to its intended receivers. 
 
 [[next question|foreign aid is bad 2]]
 
@@ -218,7 +218,7 @@ You are an aging warrior with a broken back. You hobble to a stream to cool off.
 
 [[next question|boy drinking from water]]
 
-(set: $non to it + 1.5)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="46" name="foreign aid is bad 2" tags="" position="1200,1175" size="100,100">The year is 900 AD. 
+(set: $non to it + 1.5)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="46" name="foreign aid is bad 2" tags="" position="2000,625" size="100,100">The year is 900 AD. 
 
 You are a beggar in an impoverished town. There are several kind citizens whom you count on for food. They provide you small meals every day. Your shelter is a large box with cotton carpeting inside. Despite these conditions, you have continued to live naturally, and everyone knows your name. 
 
@@ -226,152 +226,152 @@ One morning, a group of friends arrive in a large carriage. They hand out produc
 
 [[take the basket and eat some of the food]]
 [[take the basket and give some to the friends&#39; families]]
-[[take the basket, dump it out, and wear it as a helmet]]</tw-passagedata><tw-passagedata pid="47" name="take the basket and eat some of the food" tags="" position="1075,1300" size="100,100">You take the basket and look into the eyes of the friends. You thank them for their kindness and eat some of the food. You hear murmurs among the crowd. The townspeople are perplexed at your sudden change in behavior. You wonder why they are so judgmental. What&#39;s wrong with a good meal here and there?
+[[take the basket, dump it out, and wear it as a helmet]]</tw-passagedata><tw-passagedata pid="47" name="take the basket and eat some of the food" tags="" position="1875,750" size="100,100">You take the basket and look into the eyes of the friends. You thank them for their kindness and eat some of the food. You hear murmurs among the crowd. The townspeople are perplexed at your sudden change in behavior. You wonder why they are so judgmental. What&#39;s wrong with a good meal here and there?
 
 [[next question|foreign aid is bad 3]]
 
-(set: $non to it + 2)(set: $cri to it + .5)</tw-passagedata><tw-passagedata pid="48" name="take the basket and give some to the friends&#39; families" tags="" position="1200,1300" size="100,100">Perhaps it is an odd request, but you take the basket but pick out a few items. You hand these back to one of the friends. You tell them to give it to a family member of theirs. Somewhat puzzled the friend gives you their word. A few of the townspeople laugh, and others mumble to themselves. You question why some people are so judgmental. 
+(set: $non to it + 2)(set: $cri to it + .5)</tw-passagedata><tw-passagedata pid="48" name="take the basket and give some to the friends&#39; families" tags="" position="2000,750" size="100,100">Perhaps it is an odd request, but you take the basket but pick out a few items. You hand these back to one of the friends. You tell them to give it to a family member of theirs. Somewhat puzzled the friend gives you their word. A few of the townspeople laugh, and others mumble to themselves. You question why some people are so judgmental. 
 
 [[next question|foreign aid is bad 3]]
 
-(set: $cri to it + 2)(set: $cri to it + .5)(set: $rad to it + 1)</tw-passagedata><tw-passagedata pid="49" name="take the basket, dump it out, and wear it as a helmet" tags="" position="1325,1300" size="100,100">You take the basket and turn it upside down. The food falls to the floor. The three friends stare in disbelief. You raise the basket high and set it on your head. You smile at them in your new straw hat. The rest of the town laughs and applauds. Two friends whip around and growl. The third friend opens her mouth to speak but quickly closes it and rejoins her group. Your proud new hat has won the day. 
+(set: $cri to it + 2)(set: $cri to it + .5)(set: $rad to it + 1)</tw-passagedata><tw-passagedata pid="49" name="take the basket, dump it out, and wear it as a helmet" tags="" position="2125,750" size="100,100">You take the basket and turn it upside down. The food falls to the floor. The three friends stare in disbelief. You raise the basket high and set it on your head. You smile at them in your new straw hat. The rest of the town laughs and applauds. Two friends whip around and growl. The third friend opens her mouth to speak but quickly closes it and rejoins her group. Your proud new hat has won the day. 
 
 [[next question|foreign aid is bad 3]]
 
-(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="50" name="it is impossible to change the world" tags="" position="675,1575" size="100,100">The world is a very large place, and you are a single soul. The universe is wrought with evil and villainy. It is just not realistic to demand a universal responsibility toward the common good. You can control yourself. Let other control themselves. If any bad occurs to them, it is easy to find the culprit. 
+(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="50" name="it is impossible to change the world" tags="" position="675,1025" size="100,100">The world is a very large place, and you are a single soul. The universe is wrought with evil and villainy. It is just not realistic to demand a universal responsibility toward the common good. You can control yourself. Let other control themselves. If any bad occurs to them, it is easy to find the culprit. 
 
 [[next question|too late to change the world 2]]
 
-(set: $non to it + 2)(set: $ind to it + 1)</tw-passagedata><tw-passagedata pid="51" name="it is feasible to change the world" tags="" position="925,1575" size="100,100">Something must be done, and why can&#39;t it be you? You conclude that it is feasible to change the world. It is morally bad to look the other way when people are able to be saved. Bloodshed is avoidable, and you set out to make a difference. As you return to your family, you tell them that world peace will exist one day. 
+(set: $non to it + 2)(set: $ind to it + 1)</tw-passagedata><tw-passagedata pid="51" name="it is feasible to change the world" tags="" position="925,1025" size="100,100">Something must be done, and why can&#39;t it be you? You conclude that it is feasible to change the world. It is morally bad to look the other way when people are able to be saved. Bloodshed is avoidable, and you set out to make a difference. As you return to your family, you tell them that world peace will exist one day. 
 
 [[next question|too late to change the world 2]]
 
-(set: $rad to it + 2)</tw-passagedata><tw-passagedata pid="52" name="it is not required to change the world" tags="" position="800,1575" size="100,100">You are but one soul. The world is a large, chaotic place. However, people can work towards something worthwhile. A soul is still a soul, you reason. It only takes one person to make a major difference. You have more left to do before your time runs out. As you return to your family, you remind them of the ups and downs of life. 
+(set: $rad to it + 2)</tw-passagedata><tw-passagedata pid="52" name="it is not required to change the world" tags="" position="800,1025" size="100,100">You are but one soul. The world is a large, chaotic place. However, people can work towards something worthwhile. A soul is still a soul, you reason. It only takes one person to make a major difference. You have more left to do before your time runs out. As you return to your family, you remind them of the ups and downs of life. 
 
 [[next question|too late to change the world 2]]
 
-(set: $non to it + 1)(set: $cri to it + 2)</tw-passagedata><tw-passagedata pid="53" name="foreign aid is bad 3" tags="" position="1600,1175" size="100,100">The year is 900 AD. 
+(set: $non to it + 1)(set: $cri to it + 2)</tw-passagedata><tw-passagedata pid="53" name="foreign aid is bad 3" tags="" position="2400,625" size="100,100">The year is 900 AD. 
 
 You are a commoner in a carriage to a distant nation. There are several friends with you. You begin to feel sickly and irritated. At night, you leave the carriage to throw up. When the day comes around, you feel worse having not slept. Someone makes fun of your appearance, and it secretly hurts your feelings. You ponder how much you regret going on this trip. 
 
 [[request to turn around]]
 [[gaslight a friend into giving you their blanket and food]]
-[[brave through the pain]]</tw-passagedata><tw-passagedata pid="54" name="request to turn around" tags="" position="1600,1300" size="100,100">You strongly request to turn around. The group discusses this. After some raised voices, they decide to take a pit stop in the closest town. You remain in a poor mood until the nighttime, where the carriage comes across a small village. You are the first to hop off the carriage. However, nobody speaks your language. The rest of the group urges you to return to the carriage. You disagree and stay in the village. The carriage leaves without you, and you are stuck in an unknown world by yourself. You wonder whether the group will come back to retrieve you. 
+[[brave through the pain]]</tw-passagedata><tw-passagedata pid="54" name="request to turn around" tags="" position="2400,750" size="100,100">You strongly request to turn around. The group discusses this. After some raised voices, they decide to take a pit stop in the closest town. You remain in a poor mood until the nighttime, where the carriage comes across a small village. You are the first to hop off the carriage. However, nobody speaks your language. The rest of the group urges you to return to the carriage. You disagree and stay in the village. The carriage leaves without you, and you are stuck in an unknown world by yourself. You wonder whether the group will come back to retrieve you. 
 
 [[next question|too late to change the world]]
 
-(set: $non to it + 2)</tw-passagedata><tw-passagedata pid="55" name="brave through the pain" tags="" position="1725,1300" size="100,100">You seal your lips and brave through the pain. The following day, a friend exclaims that we are almost there. You cannot hear them. Since morning, you&#39;ve lost your sense of hearing. You regularly pass out without your friends knowing. You brave through the pain, hoping that the omnipresent nausea calms down. 
+(set: $non to it + 2)</tw-passagedata><tw-passagedata pid="55" name="brave through the pain" tags="" position="2525,750" size="100,100">You seal your lips and brave through the pain. The following day, a friend exclaims that we are almost there. You cannot hear them. Since morning, you&#39;ve lost your sense of hearing. You regularly pass out without your friends knowing. You brave through the pain, hoping that the omnipresent nausea calms down. 
 
 It does not work. You close your eyes one last time. Your friends shake you up and down. Everything fades away. 
 
 [[next question|too late to change the world]]
 
-(set: $rad to it + 2)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="56" name="gaslight a friend into giving you their blanket and food" tags="" position="1475,1300" size="100,100">You tell everyone that you are going to die. You say that the only way you live is if you eat more food and use an extra blanket. Your friend objects but you insist. After a lengthy discussion and some raised voices, the group comes to a compromise. Your friend will give you their blanket, and everyone will eat less. You will inherit their excess food. Your friend did not sleep that night, but you recovered somewhat. Your ears are unclogged, and you can feel your fingers better. 
+(set: $rad to it + 2)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="56" name="gaslight a friend into giving you their blanket and food" tags="" position="2275,750" size="100,100">You tell everyone that you are going to die. You say that the only way you live is if you eat more food and use an extra blanket. Your friend objects but you insist. After a lengthy discussion and some raised voices, the group comes to a compromise. Your friend will give you their blanket, and everyone will eat less. You will inherit their excess food. Your friend did not sleep that night, but you recovered somewhat. Your ears are unclogged, and you can feel your fingers better. 
 
 Everyone else begins to feel nauseous. You wonder how much time is left on this trip. 
 
 [[next question|too late to change the world]]
 
-(set: $cri to it + 2)(set: $non to it + 1)</tw-passagedata><tw-passagedata pid="57" name="too late to change the world 2" tags="" position="1200,1450" size="100,100">The year is 1300 AD. 
+(set: $cri to it + 2)(set: $non to it + 1)</tw-passagedata><tw-passagedata pid="57" name="too late to change the world 2" tags="" position="1200,900" size="100,100">The year is 1300 AD. 
 
 You are a soldier. Your nation lost the war, and you are returning home. You think of the comrades you lost. You think of the grime covering your hands, invisible from plain sight. You remember the handwritten letters you couldn&#39;t reply to. What was it all for?
 
 [[you cannot change the world]]
 [[you must change the world]]
-[[you did your part]]</tw-passagedata><tw-passagedata pid="58" name="you cannot change the world" tags="" position="1075,1575" size="100,100">You know what it&#39;s like to lose now. You know what it&#39;s like when the world forces bloodshed down your throat. You cannot change the world. The world changes on its own. When you arrive home to your family, you do not share your stories. They are only tragedies and awful reminders. Instead, you remind them of the stark fragility of life. Life is fragile. 
+[[you did your part]]</tw-passagedata><tw-passagedata pid="58" name="you cannot change the world" tags="" position="1075,1025" size="100,100">You know what it&#39;s like to lose now. You know what it&#39;s like when the world forces bloodshed down your throat. You cannot change the world. The world changes on its own. When you arrive home to your family, you do not share your stories. They are only tragedies and awful reminders. Instead, you remind them of the stark fragility of life. Life is fragile. 
 
 [[next question|ten central capabilities]]
 
-(set: $non to it + 1.5)(set: $ind to it + 1.5)</tw-passagedata><tw-passagedata pid="59" name="you must change the world" tags="" position="1200,1575" size="100,100">You know you are strong. You fought hard for a cause. There is more to do, and there is more to give. You can tell that people have morals. You know that they know right from wrong. Enough people probably care. You must change the world. This circle of inconsiderate complacency has to stop. 
+(set: $non to it + 1.5)(set: $ind to it + 1.5)</tw-passagedata><tw-passagedata pid="59" name="you must change the world" tags="" position="1200,1025" size="100,100">You know you are strong. You fought hard for a cause. There is more to do, and there is more to give. You can tell that people have morals. You know that they know right from wrong. Enough people probably care. You must change the world. This circle of inconsiderate complacency has to stop. 
 
 [[next question|ten central capabilities]]
 
-(set: $rad to it + 2)(set: $cri to it + .5)</tw-passagedata><tw-passagedata pid="60" name="you did your part" tags="" position="1325,1575" size="100,100">You tried your best. You put yourself in danger in honor of your nation. What more is there to give when everyone fights all the time? You are not a bad person. You didn&#39;t stand idly by. There&#39;s a line to draw when making sacrifices. The wisest souls have a balance. 
+(set: $rad to it + 2)(set: $cri to it + .5)</tw-passagedata><tw-passagedata pid="60" name="you did your part" tags="" position="1325,1025" size="100,100">You tried your best. You put yourself in danger in honor of your nation. What more is there to give when everyone fights all the time? You are not a bad person. You didn&#39;t stand idly by. There&#39;s a line to draw when making sacrifices. The wisest souls have a balance. 
 
 [[next question|ten central capabilities]]
 
-(set: $non to it + .5)(set: $cri to it + 2)</tw-passagedata><tw-passagedata pid="61" name="the freedom to help and be among others" tags="" position="675,1850" size="100,100">Your mind drifts to the freedom to associate with others and interact with colleagues. It is clearly a right that must be protected by law. It is a quantifiable, identifiable fact that protecting others and acting alongside them is a universal priority. 
+(set: $non to it + .5)(set: $cri to it + 2)</tw-passagedata><tw-passagedata pid="61" name="the freedom to help and be among others" tags="" position="1475,1025" size="100,100">Your mind drifts to the freedom to associate with others and interact with colleagues. It is clearly a right that must be protected by law. It is a quantifiable, identifiable fact that protecting others and acting alongside them is a universal priority. 
 
 [[next question|ten central capabilities 2]]
 
-(set: $cri to it + 2)(set: $rad to it + 1)</tw-passagedata><tw-passagedata pid="62" name="the freedom to experience love and glory" tags="" position="800,1850" size="100,100">Your mind drifts to the beauty of oneself. You think of how it feels to be in love. You think of the pride and joys of fame and fortune. You covet the idea of having access and opportunity to do so. Clearly, they are a protected freedom under the universal laws of humanity. 
+(set: $cri to it + 2)(set: $rad to it + 1)</tw-passagedata><tw-passagedata pid="62" name="the freedom to experience love and glory" tags="" position="1600,1025" size="100,100">Your mind drifts to the beauty of oneself. You think of how it feels to be in love. You think of the pride and joys of fame and fortune. You covet the idea of having access and opportunity to do so. Clearly, they are a protected freedom under the universal laws of humanity. 
 
 [[next question|ten central capabilities 2]]
 
 (set: $non to it + 2)
-(set: $cri to it + 1)</tw-passagedata><tw-passagedata pid="63" name="the freedom to enjoy nature and natural livelihood" tags="" position="925,1850" size="100,100">Your mind thinks of the atmosphere around you. One ought to enjoy nature. It is a necessity to appreciate the beauty of creatures and plants that share our home. Clearly, it should be protected by law. 
+(set: $cri to it + 1)</tw-passagedata><tw-passagedata pid="63" name="the freedom to enjoy nature and natural livelihood" tags="" position="1725,1025" size="100,100">Your mind thinks of the atmosphere around you. One ought to enjoy nature. It is a necessity to appreciate the beauty of creatures and plants that share our home. Clearly, it should be protected by law. 
 
 [[next question|ten central capabilities 2]]
 
-(set: $rad to it + 1.5)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="64" name="ten central capabilities 2" tags="" position="1200,1725" size="100,100">The year is 1700 AD. 
+(set: $rad to it + 1.5)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="64" name="ten central capabilities 2" tags="" position="2000,900" size="100,100">The year is 1700 AD. 
 
 You are royalty. You are a fair leader. The people love you and think you rule fairly. However, your city needs assistance. You devise a new plan. In this plan, you want to hire someone who will watch the public and fix the city once and for all. You think, what should your new advisor do?
 
 [[monitor what each citizen produces]]
 [[monitor what each citizen is capable of doing]]
-[[do not hire anyone]]</tw-passagedata><tw-passagedata pid="65" name="monitor what each citizen produces" tags="" position="1200,1850" size="100,100">You hire an advisor to monitor the resources that commoners are using and churning out. You tell him to watch people based on the consequences of their actions. The advisor sets out to find the citizens who are not producing. 
+[[do not hire anyone]]</tw-passagedata><tw-passagedata pid="65" name="monitor what each citizen produces" tags="" position="2000,1025" size="100,100">You hire an advisor to monitor the resources that commoners are using and churning out. You tell him to watch people based on the consequences of their actions. The advisor sets out to find the citizens who are not producing. 
 
 After a few days, he reports a list of immoral workers based on the consequences of how they performed. These workers are killed. Indeed, the city improves. 
 
 [[next question|ethical veganism]]
 
-(set: $rad to it + 2)</tw-passagedata><tw-passagedata pid="66" name="monitor what each citizen is capable of doing" tags="" position="1325,1850" size="100,100">You hire an advisor to monitor what each citizen is capable of doing. You tell him to focus on expanding their capabilities. 
+(set: $rad to it + 2)</tw-passagedata><tw-passagedata pid="66" name="monitor what each citizen is capable of doing" tags="" position="2125,1025" size="100,100">You hire an advisor to monitor what each citizen is capable of doing. You tell him to focus on expanding their capabilities. 
 
 After a few days, he reports a list of workers that he says are in the wrong career paths. These workers are uprooted from their homes and relocated to the proper sector in the city. Indeed, the city improves.
 
 [[next question|ethical veganism]]
 
-(set: $cri to it + 2)</tw-passagedata><tw-passagedata pid="67" name="there is no desire to feast" tags="" position="675,2125" size="100,100">You prepared this food, but you find little interest in eating it. Your family thanks you for your services, but your mind shifts to alternative ideals. You are self-sufficient. You do not need a feast to be happy. You are doing a moral good, and your microchip reflects this.
+(set: $cri to it + 2)</tw-passagedata><tw-passagedata pid="67" name="there is no desire to feast" tags="" position="1475,1300" size="100,100">You prepared this food, but you find little interest in eating it. Your family thanks you for your services, but your mind shifts to alternative ideals. You are self-sufficient. You do not need a feast to be happy. You are doing a moral good, and your microchip reflects this.
 
 [[next question|ethical veganism 2]]
 
-(set: $rad to it + 1.5)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="68" name="ethical veganism 2" tags="" position="1200,2000" size="100,100">The year is 2100 AD. 
+(set: $rad to it + 1.5)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="68" name="ethical veganism 2" tags="" position="2000,1175" size="100,100">The year is 2100 AD. 
 
 You are a commoner. It is an ordinary day, and tech advances have industrialized everything. A microchip is in your skin that records your weekly diet based on your bloodstream. You return home from work. You walk to the kitchen.
 
 [[the fridge is fairly full]]
 [[you do not have a fridge]]
-[[the fridge has several small items]]</tw-passagedata><tw-passagedata pid="69" name="you do not have a fridge" tags="" position="1325,2125" size="100,100">You do not have a fridge. Your kitchen has only the necessities. Fridges take up space and increase the electric bill unnecessarily. Life can be simplified like this. As you sit down to eat, you find comfort in your self-sufficiency. 
+[[the fridge has several small items]]</tw-passagedata><tw-passagedata pid="69" name="you do not have a fridge" tags="" position="2125,1300" size="100,100">You do not have a fridge. Your kitchen has only the necessities. Fridges take up space and increase the electric bill unnecessarily. Life can be simplified like this. As you sit down to eat, you find comfort in your self-sufficiency. 
 
 This was the last question.
 
 [[see results]]
 
-(set: $rad to it + 1.5)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="70" name="the fridge has several small items" tags="" position="1075,2125" size="100,100">The fridge is not packed, nor is it barren. You have what you need. You will live, and there is not more to be expected here. You smile, knowing that you are not greedy, nor are you helpless. You are safe. 
+(set: $rad to it + 1.5)(set: $ind to it + 2)</tw-passagedata><tw-passagedata pid="70" name="the fridge has several small items" tags="" position="1875,1300" size="100,100">The fridge is not packed, nor is it barren. You have what you need. You will live, and there is not more to be expected here. You smile, knowing that you are not greedy, nor are you helpless. You are safe. 
 
 This was the last question.
 
 [[see results]]
 
-(set: $cri to it + 1.5)(set: $non to it + .5)</tw-passagedata><tw-passagedata pid="71" name="the fridge is fairly full" tags="" position="1200,2125" size="100,100">The fridge has snacks, food, and some leftovers from the days before. You have what you need and a little bit more. It is a nice, comfortable lifestyle not having to worry about food. You smile at the security you provided for your well-being. 
+(set: $cri to it + 1.5)(set: $non to it + .5)</tw-passagedata><tw-passagedata pid="71" name="the fridge is fairly full" tags="" position="2000,1300" size="100,100">The fridge has snacks, food, and some leftovers from the days before. You have what you need and a little bit more. It is a nice, comfortable lifestyle not having to worry about food. You smile at the security you provided for your well-being. 
 
 This was the last question.
 
 [[see results]]
 
-(set: $non to it + 1.5)(set: $cri to it + .5)(set: $rad to it + .5)</tw-passagedata><tw-passagedata pid="72" name="do not hire anyone" tags="" position="1075,1850" size="100,100">You decide not to hire anyone. You are the leader, and your people ought to learn to take care of themselves. They should learn to become self-sufficient. It is morally unjust to partake in such greed of theirs. Sometimes, the best route of action is letting things play out as they should. 
+(set: $non to it + 1.5)(set: $cri to it + .5)(set: $rad to it + .5)</tw-passagedata><tw-passagedata pid="72" name="do not hire anyone" tags="" position="1875,1025" size="100,100">You decide not to hire anyone. You are the leader, and your people ought to learn to take care of themselves. They should learn to become self-sufficient. It is morally unjust to partake in such greed of theirs. Sometimes, the best route of action is letting things play out as they should. 
 
 [[next question|ethical veganism]]
 
-(set: $non to it + 1)(set: $ind to it + 1.5)</tw-passagedata><tw-passagedata pid="73" name="why diogenes" tags="" position="800,2400" size="100,100">The individualist philosophy was pioneered by the ancient figurehead Diogenes of Sinope. For this type of cosmopolitan, principles of justice that apply within society or nation should apply globally as there are no local or community deciding factors concerning who gets what in terms of goods, resources, or rights. Diogenes followed this definition to his bitter end. To start, he avoided extra resources to an extreme degree. One day, observing a child drinking out of his hands, he cast away the cup from his wallet with the words, &quot;A child has beaten me in plainness of living.&quot; He had only a cup, yet discarded that too when he learned he could use his hands. 
+(set: $non to it + 1)(set: $ind to it + 1.5)</tw-passagedata><tw-passagedata pid="73" name="why diogenes" tags="" position="2400,1025" size="100,100">The individualist philosophy was pioneered by the ancient figurehead Diogenes of Sinope. For this type of cosmopolitan, principles of justice that apply within society or nation should apply globally as there are no local or community deciding factors concerning who gets what in terms of goods, resources, or rights. Diogenes followed this definition to his bitter end. To start, he avoided extra resources to an extreme degree. One day, observing a child drinking out of his hands, he cast away the cup from his wallet with the words, &quot;A child has beaten me in plainness of living.&quot; He had only a cup, yet discarded that too when he learned he could use his hands. 
 
-[[continue|continue diogenes]]</tw-passagedata><tw-passagedata pid="74" name="why singer" tags="" position="925,2400" size="100,100">The radical utilitarian mindset is modeled after the moral philosopher Peter Singer. Singer presents the argument that one must give what is necessary. He describes in Famine, Affluence, and Morality, “From the moral point of view, the prevention of the starvation of millions of people outside our society must be considered at least as pressing as the upholding of property norms within our society.” In this ideal, impoverished neighbors are equivalent to those in need on the other side of the globe. This philosophy closely parallels the idea of being a modern citizen of the world. 
+[[continue|continue diogenes]]</tw-passagedata><tw-passagedata pid="74" name="why singer" tags="" position="2525,1025" size="100,100">The radical utilitarian mindset is modeled after the moral philosopher Peter Singer. Singer presents the argument that one must give what is necessary. He describes in Famine, Affluence, and Morality, “From the moral point of view, the prevention of the starvation of millions of people outside our society must be considered at least as pressing as the upholding of property norms within our society.” In this ideal, impoverished neighbors are equivalent to those in need on the other side of the globe. This philosophy closely parallels the idea of being a modern citizen of the world. 
 
-[[continue|continue singer]]</tw-passagedata><tw-passagedata pid="75" name="why appiah" tags="" position="675,2400" size="100,100">The critical cosmopolitan mindset is the most lenient to its own principles. It notably differs from individualists and radical utilitarians, and that is because of an almost redefining of the term cosmopolitanism. Contemporary thinkers Kwame Anthony Appiah and Martha Nussbaum are primary factors in creating critical cosmopolitanism. They declare that times have changed since Diogenes and the Cynics shed their possessions to enforce cosmopolitanism. Unlike Diogenes and Singer, philosophers like Appiah, Nussbaum, and others may even retain the value of patriotism. They can devote themselves to their region, so long as they do not devalue those living outside of it. 
+[[continue|continue singer]]</tw-passagedata><tw-passagedata pid="75" name="why appiah" tags="" position="2275,1025" size="100,100">The critical cosmopolitan mindset is the most lenient to its own principles. It notably differs from individualists and radical utilitarians, and that is because of an almost redefining of the term cosmopolitanism. Contemporary thinkers Kwame Anthony Appiah and Martha Nussbaum are primary factors in creating critical cosmopolitanism. They declare that times have changed since Diogenes and the Cynics shed their possessions to enforce cosmopolitanism. Unlike Diogenes and Singer, philosophers like Appiah, Nussbaum, and others may even retain the value of patriotism. They can devote themselves to their region, so long as they do not devalue those living outside of it. 
 
-[[continue|continue appiah]]</tw-passagedata><tw-passagedata pid="76" name="why non" tags="" position="1050,2400" size="100,100">Non-cosmopolitanism is ultimately a catchall for those who prefer alternative viewpoints. Perhaps you agree with Appiah that global cosmopolitanism is quite far-fetched. Perhaps you understand the aversion to material like Diogenes but wish to avoid complete self-sufficiency. Whatever the case, you do not align with Diogenes, Singer, Appiah, or Nussbaum. Note that it is not “anti-cosmopolitanism,” for one does not have to be genuinely against cosmopolitanism as a concept. Non-cosmopolitanism represents the absence of cosmopolitanism, not an aversion to it. 
+[[continue|continue appiah]]</tw-passagedata><tw-passagedata pid="76" name="why non" tags="" position="2650,1025" size="100,100">Non-cosmopolitanism is ultimately a catchall for those who prefer alternative viewpoints. Perhaps you agree with Appiah that global cosmopolitanism is quite far-fetched. Perhaps you understand the aversion to material like Diogenes but wish to avoid complete self-sufficiency. Whatever the case, you do not align with Diogenes, Singer, Appiah, or Nussbaum. Note that it is not “anti-cosmopolitanism,” for one does not have to be genuinely against cosmopolitanism as a concept. Non-cosmopolitanism represents the absence of cosmopolitanism, not an aversion to it. 
 
-[[play again?|Cosmopolitan Morality Spectrum]]</tw-passagedata><tw-passagedata pid="77" name="continue appiah" tags="" position="675,2525" size="100,100">Critical cosmopolitanism is the acceptance that the world is wrought with anger and ill faith. Some problems require astronomical solutions. It is not a requirement to give until one has nothing left to give. As Appiah concludes, “I know there are unmet entitlements, but I have done my part.” With so much villainy around the world, our obligation is not to carry the whole burden alone, so we should do our fair share, but we cannot be required to do more. The second objective is that modifying our moral responsibilities is a heavy task. Because much of who we are has been passively accepted and unconsciously crafted, we have really lost the ability to radically transform our lives and ourselves. A non-cosmopolitan will have difficulty learning to become one. It is a herculean effort to ask for such, especially if the end goal is global cosmopolitanism. 
+[[play again?|Cosmopolitan Morality Spectrum]]</tw-passagedata><tw-passagedata pid="77" name="continue appiah" tags="" position="2275,1150" size="100,100">Critical cosmopolitanism is the acceptance that the world is wrought with anger and ill faith. Some problems require astronomical solutions. It is not a requirement to give until one has nothing left to give. As Appiah concludes, “I know there are unmet entitlements, but I have done my part.” With so much villainy around the world, our obligation is not to carry the whole burden alone, so we should do our fair share, but we cannot be required to do more. The second objective is that modifying our moral responsibilities is a heavy task. Because much of who we are has been passively accepted and unconsciously crafted, we have really lost the ability to radically transform our lives and ourselves. A non-cosmopolitan will have difficulty learning to become one. It is a herculean effort to ask for such, especially if the end goal is global cosmopolitanism. 
 [[continue|continue appiah 2]]
-</tw-passagedata><tw-passagedata pid="78" name="continue appiah 2" tags="" position="675,2650" size="100,100">At the same time, Nussbaum finds that we could work towards something worthwhile. Because human beings are political animals, Nussbaum not only sees their interests as bound up with others throughout their lives, but also recognizes that for parts of their life, and in some cases throughout life, people will depend on others. Evidently, critical cosmopolitanism offers resistance toward Diogenes and Singer while still maintaining cosmopolitan values.
+</tw-passagedata><tw-passagedata pid="78" name="continue appiah 2" tags="" position="2275,1275" size="100,100">At the same time, Nussbaum finds that we could work towards something worthwhile. Because human beings are political animals, Nussbaum not only sees their interests as bound up with others throughout their lives, but also recognizes that for parts of their life, and in some cases throughout life, people will depend on others. Evidently, critical cosmopolitanism offers resistance toward Diogenes and Singer while still maintaining cosmopolitan values.
 
-[[play again?|Cosmopolitan Morality Spectrum]]</tw-passagedata><tw-passagedata pid="79" name="continue diogenes" tags="" position="800,2525" size="100,100">Diogenes was the original cosmopolitan. He was the template for everyone else to follow, and he coined the term himself. When asked where he came from, he said, &quot;I am a citizen of the world (kosmopolitês).&quot; Secondly, he was a Cynic, a following that quite forcefully stressed self-sufficiency. To a Cynic, cynicism was a foundation; their primary interests were ethical, but they conceived of ethics more as a way of living than as a doctrine in need of explication. 
+[[play again?|Cosmopolitan Morality Spectrum]]</tw-passagedata><tw-passagedata pid="79" name="continue diogenes" tags="" position="2400,1150" size="100,100">Diogenes was the original cosmopolitan. He was the template for everyone else to follow, and he coined the term himself. When asked where he came from, he said, &quot;I am a citizen of the world (kosmopolitês).&quot; Secondly, he was a Cynic, a following that quite forcefully stressed self-sufficiency. To a Cynic, cynicism was a foundation; their primary interests were ethical, but they conceived of ethics more as a way of living than as a doctrine in need of explication. 
 
-[[continue|continue diogenes 2]] </tw-passagedata><tw-passagedata pid="80" name="continue diogenes 2" tags="" position="800,2650" size="100,100">In our interpretation of cosmopolitanism and being an individualist, we can attempt to modernize Diogenes’s Cynic lifestyle. We can simply depict his methods as the most drastic form of cosmopolitanism. This means being brutally self-sufficient and practically avoiding political phenomena. Like ancient cynicism, individualists must strive for self-sufficiency and strength and that neither of which is capable of being maintained once one enters into the conventional political game. This includes avoiding others, as Diogenes and other Cynics did. Because individualists recognize the arbitrariness of conventions, there is no reason to give to another and fuel their greed. Consequently, the line drawn from giving to someone nearby and giving to someone far away is simple. Embrace self-sufficiency and give to neither.
+[[continue|continue diogenes 2]] </tw-passagedata><tw-passagedata pid="80" name="continue diogenes 2" tags="" position="2400,1275" size="100,100">In our interpretation of cosmopolitanism and being an individualist, we can attempt to modernize Diogenes’s Cynic lifestyle. We can simply depict his methods as the most drastic form of cosmopolitanism. This means being brutally self-sufficient and practically avoiding political phenomena. Like ancient cynicism, individualists must strive for self-sufficiency and strength and that neither of which is capable of being maintained once one enters into the conventional political game. This includes avoiding others, as Diogenes and other Cynics did. Because individualists recognize the arbitrariness of conventions, there is no reason to give to another and fuel their greed. Consequently, the line drawn from giving to someone nearby and giving to someone far away is simple. Embrace self-sufficiency and give to neither.
 
-[[play again?|Cosmopolitan Morality Spectrum]]</tw-passagedata><tw-passagedata pid="81" name="continue singer" tags="" position="925,2525" size="100,100">Indeed, radical utilitarianism synthesizes some values that Diogenes had. Diogenes found that avoiding self indulgence is a fundamental requirement. Singer, a consequentialist, also aligns with this. He asserts that we ought to give money away, rather than spend it on clothes which we do not need to keep us warm, and it is wrong not to do so. He proceeds to argue that giving is required. Singer’s leading principle is that if we can prevent something bad from happening without sacrificing anything of comparable moral importance, then we ought to do so. Ultimately, the consequence of avoiding such a requirement is that one allows terrible things to happen. The consequence is being considered a bad person on principle. 
+[[play again?|Cosmopolitan Morality Spectrum]]</tw-passagedata><tw-passagedata pid="81" name="continue singer" tags="" position="2525,1150" size="100,100">Indeed, radical utilitarianism synthesizes some values that Diogenes had. Diogenes found that avoiding self indulgence is a fundamental requirement. Singer, a consequentialist, also aligns with this. He asserts that we ought to give money away, rather than spend it on clothes which we do not need to keep us warm, and it is wrong not to do so. He proceeds to argue that giving is required. Singer’s leading principle is that if we can prevent something bad from happening without sacrificing anything of comparable moral importance, then we ought to do so. Ultimately, the consequence of avoiding such a requirement is that one allows terrible things to happen. The consequence is being considered a bad person on principle. 
 
-[[continue|continue singer 2]]</tw-passagedata><tw-passagedata pid="82" name="continue singer 2" tags="" position="925,2650" size="100,100">A key difference from Diogenes, however, is that Singer’s argument is about obligations to others. Conversely, Diogenes simply wanted freedom from coercive social convention. That is also a major contrast between an individualist and a radical utilitarian. Individualists and radical utilitarians seek basic necessities. The contrast is that radical utilitarians sacrifice everything they gain, whereas individualists sacrifice nothing because they never gained anything to sacrifice in the first place. 
+[[continue|continue singer 2]]</tw-passagedata><tw-passagedata pid="82" name="continue singer 2" tags="" position="2525,1275" size="100,100">A key difference from Diogenes, however, is that Singer’s argument is about obligations to others. Conversely, Diogenes simply wanted freedom from coercive social convention. That is also a major contrast between an individualist and a radical utilitarian. Individualists and radical utilitarians seek basic necessities. The contrast is that radical utilitarians sacrifice everything they gain, whereas individualists sacrifice nothing because they never gained anything to sacrifice in the first place. 
 
 [[play again?|Cosmopolitan Morality Spectrum]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
